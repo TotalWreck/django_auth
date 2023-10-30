@@ -9,4 +9,5 @@ from . import views
 urlpatterns = [
     path('', views.index),
     path('login/', TokenObtainPairView.as_view()),
+    path('register/', views.register),
 ]
